@@ -1,0 +1,109 @@
+body{
+    margin: auto;
+    background-color: crimson;
+    background: fixed;
+    font-size: xx-large;
+}
+.container{
+    height: auto;
+    width: 300px;
+    margin-left: 20%;
+    margin-top: 5%;
+    border-radius: 2px;
+    border-color: black;
+    box-shadow: black;
+    
+    
+}
+
+.left{
+    height: 1050px;
+    background-color: gray;
+}
+.right{
+    height: 1050px; 
+    background-color: cornsilk;
+    border-color: crimson;
+}
+#pro{
+    margin-top: 15px;
+    margin-left: 25%;
+    width: 150px;
+    height: 150px;    
+}
+.interest{
+    font-size: large;
+    font-weight: bold;
+}
+.phone {
+    display: inline-block;
+    justify-content: space-between;
+    font-weight: bolder;
+    font-size: larger;
+    color: black;
+}
+.mail a{
+    display: inline-block;
+    justify-content: space-between;
+    font-weight: bolder;
+    font-size: larger;
+    color: black;
+}
+.git a{
+    justify-content: space-evenly;
+    font-weight: bolder;
+    font-size: 50px;
+    color: black;
+    display: inline-flex;
+    padding: 35px;
+
+}
+
+.education th,td{
+    padding: 15px;
+}
+.line{
+    color:black;
+    background-color: white;
+    width:fit-content;
+    text-align: center;
+    height:fit-content;
+    font-weight: bolder;     
+}
+.lines{
+    font-weight: bold;
+    color: teal;
+    width:fit-content;
+    text-align: center;
+    height:fit-content;
+}
+.P{
+    margin-top: 10px;
+    font-weight: bold;
+    border-style: solid;
+}
+
+.P .skills__item .righ input {
+    display: none;
+  }
+  
+  .P .skills__item .righ label {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background: #c3def3;
+    border-radius: 20px;
+    margin-right: 3px;
+  }
+  .P .skills__item .righ input:checked + label {
+    background: #79a9ce;
+  }
+  .P .lef,
+.P .righ {
+  vertical-align: top;
+  display: inline-block;
+}
+
+.P .lef {
+  width: 60%;
+}
